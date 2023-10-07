@@ -1,4 +1,4 @@
-name: build exts
+name: build
 
 on:
   push:
