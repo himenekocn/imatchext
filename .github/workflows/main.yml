@@ -108,12 +108,6 @@ jobs:
           repository: alliedmodders/hl2sdk
           ref: l4d
           path: hl2sdk-l4d
-      
-      - name: Checking out Imatchext
-        uses: actions/checkout@v2
-        with:
-          repository: shqke/imatchext
-          path: imatchext
 
       - name: Checking out own repository
         uses: actions/checkout@v2
