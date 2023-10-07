@@ -145,7 +145,3 @@ jobs:
         with:
           name: imatchext-mm${{ matrix.mm_version }}-sm${{ matrix.sm_version }}-${{ matrix.os_short }}-${{ env.GITHUB_SHA_SHORT }}
           path: imatchext/build/package
-        uses: actions/upload-artifact@v2
-        with:
-          name: imatchext-sm${{ matrix.sm_version }}-${{ matrix.os_short }}-${{ env.GITHUB_SHA_SHORT }}
-          path: src/build/package
